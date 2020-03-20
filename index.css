@@ -1,0 +1,38 @@
+html {
+    background-color: #2594a9;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.txt-logo {
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+/* form{
+    background-color: white;
+    border-radius: 15px;
+} */
+
+#inputnumb{
+    display: block;
+    margin: auto;
+}
+
+.submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+   
+}

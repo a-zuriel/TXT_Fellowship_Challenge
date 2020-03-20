@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>TXT Challenge</title>
+
+</head>
+<body>
+    
+        <img class="txt-logo" src="./teens-exploring-technology.png">
+        <h1>Coding Challenge</h1>
+        <p>Input three or more numbers, by typing a number and entering it. Then click sort and it will display all numbers in ascending order.</p>
+
+        <form>
+            <p>Enter a number:</p>
+            <input id="inputnumb" type="number" name="numbers"  required="1"/>
+            <input class="submit" type="button" value="Enter Number" onclick="enter()">
+        </form>
+            <p>Your numbers are:</p>
+            <p id="totalNumbers"></p>
+        <button class = "submit" onclick="sort()">Sort Numbers</button>
+        <p>The number is asceding values are:</p>
+        <p id="ascend"></p>
+    
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
